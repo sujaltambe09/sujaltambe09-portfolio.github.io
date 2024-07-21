@@ -24,7 +24,7 @@
 .light-mode {
   --color-primary: #FFFFFF;
   --color-secondary: #6b22a3;
-  --color-white: #454e56;
+  --color-white: #0e0c0fae;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #6c7983;
@@ -173,8 +173,8 @@ section {
 }
 .header-content .left-header .image {
   border-radius: 100px;
-  height: 90%;
-  width: 68%;
+  height: 80%;
+  width: 60%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -446,7 +446,7 @@ section {
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-grey-1);
   margin-bottom: 1.5rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
@@ -633,7 +633,7 @@ section {
   background-color: var(--color-primary);
    border: none;
    padding: 15px 15px;
-  color: white;
+  color: var(--color-white);
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
